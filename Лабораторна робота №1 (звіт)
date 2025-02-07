@@ -1,0 +1,82 @@
+1 Steps to deploy an OS in VirtualBox:
+
+Install VirtualBox
+Create a new VM
+Configure settings (RAM, HDD)
+Add OS ISO image
+Start VM and install OS
+
+2 Hardware limitations for 32- and 64-bit OS:
+
+32-bit OS works on any processor
+64-bit OS requires x86-64 support and VT-x/AMD-V enabled in BIOS/UEFI
+
+3 Steps to install Linux in text mode:
+
+Boot from installation media
+Partition the disk
+Select components
+Configure network
+Install and boot
+
+4 Installing Gnome and KDE in Linux:
+
+Ubuntu/Debian
+sudo apt install gnome kde-plasma-desktop
+
+CentOS/RHEL
+sudo yum groupinstall "GNOME Desktop" "KDE Plasma Workspaces"
+
+5 Xfce & Fvwm:
+
+Xfce – lightweight, Windows-like interface
+Fvwm – minimalist, highly customizable
+
+ __Control Questions__
+6 Hypervisors Type 1 & Type 2:
+
+Type 1 (bare-metal) – runs directly on hardware (ESXi, Hyper-V)
+Type 2 (hosted) – runs within an OS (VirtualBox, VMware Workstation)
+
+7 GNU GPL:
+
+License allowing free use, modification, and distribution of software
+
+8 Open-source software:
+
+Code is publicly available for modification and distribution
+
+9 What is a Linux distribution?
+
+Linux OS + utilities, drivers, package manager (Ubuntu, Debian, Arch)
+
+10 System administration tasks in Linux:
+
+User management, networking, security, backups
+
+11 Connection between Android & Linux:
+
+Android is based on the Linux kernel
+
+12 Embedded Linux:
+
+Lightweight Linux for IoT, embedded devices (routers, smart TVs)
+
+13 Changing Linux boot mode
+
+Text mode:
+
+systemctl set-default multi-user.target
+
+Graphical mode:
+
+systemctl set-default graphical.target
+
+CLI – command-line interface, minimal resource usage
+GUI – graphical interface, user-friendly
+
+__Conclusions__
+VirtualBox allows easy OS deployment with proper VM setup and hardware configuration. 32-bit OS works on any CPU, while 64-bit requires VT-x/AMD-V support.
+Linux text-mode installation is manual and suited for servers, with graphical environments like Gnome, KDE, Xfce, and Fvwm offering different experiences. 
+Type 1 hypervisors run directly on hardware, while Type 2 runs within an OS. GNU GPL ensures free software modification and distribution, supporting open-source development. 
+Android is based on Linux, and Embedded Linux is widely used in IoT and smart devices.
