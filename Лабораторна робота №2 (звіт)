@@ -1,0 +1,110 @@
+///User Workspace Structure in Gnome///
+
+1. Main Menu
+
+The main menu in Gnome opens by clicking "Activities" or pressing the Super key.
+It contains a list of installed applications, a search function, and the ability to switch between virtual desktops.
+
+2. Quick Access Panels
+
+Top Panel: Contains the clock, status indicators (volume, network, power), and user menu.
+Dock (Dash): A vertical panel with pinned and running applications.
+
+3. Search
+
+Used for quickly launching applications, opening files, and searching the web.
+It is activated by pressing "Super" and typing the desired item's name.
+
+4. Access to New Workspaces
+
+Virtual desktops can be accessed through the "Activities" menu.
+A new workspace is added automatically when a window is dragged into an empty workspace area.
+
+///Launching Applications in Gnome///
+
+1. Via the Quick Launch Panel (Dash)
+Click on a pinned application in the Dock.
+
+2. Via Menu Search
+Open "Activities" (Super) → Type the application name.
+
+3. Via the Run Widget (Alt + F2)
+Type the application's name and press Enter.
+
+///Logging Out and Shutting Down///
+
+1. Switching to Root User
+Open a terminal (Ctrl + Alt + T).
+Run sudo -i or su -.
+
+2. Restarting the System
+Open the user menu (top right corner) → Restart.
+
+3. Shutting Down the System
+Open the user menu → Power Off.
+
+///Working in a Mobile OS Environment///
+samsung galaxy s21
+
+1.Main Menu
+Android: Uses Material UI or custom skins (One UI).
+
+2. Settings Menu
+Includes Wi-Fi, Bluetooth, display, sound, security, and more.
+
+3. Keyboard Shortcuts
+Power + Volume Down – Screenshot.
+Power + Volume Up – Power menu.
+
+4. Logging In and Power Management
+Android: Uses Google account authentication.
+Battery settings manage power-saving modes.
+
+¿¿¿Control Questions???
+
+1. Examples of Linux Server Applications
+
+Database Servers: MySQL, PostgreSQL.
+Mail Servers: Postfix, Sendmail.
+File Sharing: Samba, Nextcloud.
+
+2. Shell Comparisons
+
+Bourne (sh): Minimalist, POSIX standard.
+C shell (csh, tcsh): C-like syntax, useful for scripting.
+Bash: Enhanced Bourne shell, supports auto-completion.
+Ksh: Extended Bourne shell with scripting enhancements.
+Zsh: Feature-rich, with plugins and auto-completion.
+
+3. Package Managers in Linux
+
+For DEB-based distros: apt, dpkg.
+For RPM-based distros: dnf, yum, zypper.
+Universal: snap, flatpak.
+
+4. Security Mechanisms in Linux
+
+SELinux, AppArmor, iptables, Fail2Ban.
+
+5. Why is Virtualization Important Today?
+
+Optimizes resources, isolates processes, simplifies deployment.
+
+6. What is Containerization?
+
+OS-level virtualization (Docker, LXC).
+
+7. Advantages/Disadvantages of Open-Source Software
+
+Advantages: Free, customizable.
+Disadvantages: Lack of commercial support.
+
+8. Virtual Consoles in Linux
+
+Default: 6 (Ctrl + Alt + F1-F6).
+GUI mode: Ctrl + Alt + F7 or F1 (varies by distro).
+
+9. Logging into Linux Multiple Times with the Same Username
+
+Possible via tmux/screen or remote SSH sessions.
+Allows running multiple processes simultaneously.
